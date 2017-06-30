@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
+</head>
+<body>
+<!-- Title -->
+<h1>HANGMAN<br>
+	The Most Known Car Brands!
+</h1>
+
+
+<!-- Main Image -->
+<img id="pic" src="assets/images/ferrari.jpeg" width=500px;>
+
+<!-- Game Board -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h2 class="display-3">Current Word:</h2>
+    <div id="currentWord"></div>
+     <h2 class="display-3">Letters Already Guessed:</h2>
+    <div id="lettersGuessed"></div>
+    <h2 class="display-3">Number of Guesses Remaining:</h2>
+    <div id="remainingGuesses"></div>
+    <h2 class="display-3">Wins:</h2>
+    <div id="winsCount">0</div>
+
+  </div>
+</div>
+<script src="assets/javascript/game.js">
+</script>
+
+</body>
+</html>
